@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import {
   faAngular,
   faCss3,
-  faGitAlt,
+  // faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
@@ -33,13 +33,10 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          Experience in Full-Stack Development with a background in Front-End Development.I'm a very ambitious and have a passion for advancing in engineering and tech opportunities.  
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          I am actively seeking a team that will allow me to contribute my skills in new and challenging ways. Focused on enhancing user experiences by using dry, efficient, and scalable code. 
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
@@ -65,9 +62,9 @@ const About = () => {
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
-            <div className="face6">
+            {/* <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
