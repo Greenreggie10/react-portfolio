@@ -39,7 +39,7 @@ const About = () => {
           I am actively seeking a team that will allow me to contribute my skills in new and challenging ways. Focused on enhancing user experiences by using dry, efficient, and scalable code. 
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
+            If I had to define myself in one sentence that would be a family
             person, father of a beautiful daughter, a sports fanatic,
             tech enthusiast!!!
           </p>

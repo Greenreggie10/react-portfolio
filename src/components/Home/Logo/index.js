@@ -40,9 +40,9 @@ const Logo = () => {
     <div className="logo-container" ref={bgRef}>
       <img
         className="solid-logo"
-       // ref={solidLogoRef}
+        ref={solidLogoRef}
         src={LogoS}
-        alt="JavaScript,  Developer"
+        alt="R"
       />
 
       <svg
@@ -52,6 +52,7 @@ const Logo = () => {
         viewBox="0 0 559 897"
         xmlns="http://www.w3.org/2000/svg"
       >
+        
         <g
           className="svg-container"
           transform="translate(0 457) scale(.1 -.1)"

@@ -44,7 +44,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-          I am actively seeking a team that will allow me to contribute my skills in new and challenging ways. Focused on enhancing user experiences by using dry, efficient, and scalable code. Always using the best-in demand skills and practices, I thrive from challenges and ecstatic for the possibilities.
+          Hire Me to utilize the best-in demand skills and practices. I thrive from challenges and ecstatic for the possibilities. Full time and contract work (1099, W2, C2C, Remote). +1 (336)770-9202 or email: reggie.green10@yahoo.com
+
+          Github and LinkedIn links in Sidebar .
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
