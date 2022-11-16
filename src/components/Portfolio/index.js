@@ -19,16 +19,22 @@ const Portfolio = () => {
         }
     });
 
-    useEffect(() => {
-        getPortfolio();
-    }, []);
+    // useEffect(() => {
+    //     getPortfolio();
+    // }, []);
 
     const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
-        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
+        // const querySnapshot = await getDocs(collection(db, 'portfolio'));
+
+        
+        // setPortfolio(querySnapshot.docs.map(doc => doc.data()));
+        setPortfolio([{idx:1,port:{imge:'https://picsum.photos/200/200',name:'Test',description:'test description',url:'https://picsum.photos/200/200'}}])
     }
 
-    const renderPortfolio = (portfolio) => {
+    const renderPortfolio = () => {
+
+        // {getPortfolio()}
+        
         return (
             <div className="images-container">
                 {
