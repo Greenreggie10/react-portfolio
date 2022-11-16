@@ -4,14 +4,14 @@ import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore/lite';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDkH7WUPTj9Sx4n6Y7ye4DWS-nOsCox6M4",
-    authDomain: "port-1505c.firebaseapp.com",
-    projectId: "port-1505c",
-    storageBucket: "port-1505c.appspot.com",
-    messagingSenderId: "692239131468",
-    appId: "1:692239131468:web:67a71b53a77491e8bfe5e9",
-    measurementId: "G-5S2FR1CJ5Y"
-};
+    apiKey: "AIzaSyCNYggh5CxC8G_xro_RPl59IqpmKTDt2wc",
+    authDomain: "react-portfolio-20ace.firebaseapp.com",
+    projectId: "react-portfolio-20ace",
+    storageBucket: "react-portfolio-20ace.appspot.com",
+    messagingSenderId: "728774216035",
+    appId: "1:728774216035:web:5d516e3e9a51a01633eb56",
+    measurementId: "G-EC426JX3YH"
+  };
 
 
 const app = initializeApp(firebaseConfig);
