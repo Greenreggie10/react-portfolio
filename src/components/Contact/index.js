@@ -10,11 +10,15 @@ const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+  // useEffect(() => {
+  //   return setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 3000)
+  // }, [])
+
+  setTimeout(() => {
+    setLetterClass('text-animate-hover')
+  }, 3000)
 
   const sendEmail = (e) => {
     e.preventDefault()
