@@ -1,6 +1,6 @@
 # Portfolio
 
-React portfolio site built out to showcase some of my projects, bio, consulting services, and many ways to contact me for software development, web/app development, and technology consulting at all levels. 
+React portfolio site built out to showcase some of my projects, bio, and many ways to contact me for software development, web/app development, and technology purposes. 
 
 
 ## Technologies Used:
