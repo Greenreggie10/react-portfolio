@@ -10,13 +10,14 @@ const Portfolio = () => {
     const [portfolio, setPortfolio] = useState([]);
 
     // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         setLetterClass('text-animate-hover');
-    //     }, 3000);
+    //     const timer = 
+        //   setTimeout(() => {
+        //     setLetterClass('text-animate-hover');
+        // }, 3000);
 
-    //     return () => {
-    //         clearTimeout(timer);
-    //     }
+        // return () => {
+        //     clearTimeout(timer);
+        // }
     // });
 
     // useEffect(() => {
