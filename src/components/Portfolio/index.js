@@ -9,15 +9,15 @@ const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLetterClass('text-animate-hover');
-        }, 3000);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setLetterClass('text-animate-hover');
+    //     }, 3000);
 
-        return () => {
-            clearTimeout(timer);
-        }
-    });
+    //     return () => {
+    //         clearTimeout(timer);
+    //     }
+    // });
 
     // useEffect(() => {
     //     getPortfolio();
