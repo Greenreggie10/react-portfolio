@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.210a0ccf.css",
+    "main.js": "/react_portfolio/static/js/main.c80d36ba.js",
+    "static/js/787.566ae647.chunk.js": "/react_portfolio/static/js/787.566ae647.chunk.js",
+    "static/media/Believe-logo-.jpg": "/react_portfolio/static/media/Believe-logo-.706bf941da45de9c17ee.jpg",
+    "static/media/luxury-r-logo.jpg": "/react_portfolio/static/media/luxury-r-logo.421fb9dbe0e2fb6795f8.jpg",
+    "static/media/helvetica-neu.ttf": "/react_portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/react_portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/react_portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/react_portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/react_portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react_portfolio/index.html",
+    "main.210a0ccf.css.map": "/react_portfolio/static/css/main.210a0ccf.css.map",
+    "main.c80d36ba.js.map": "/react_portfolio/static/js/main.c80d36ba.js.map",
+    "787.566ae647.chunk.js.map": "/react_portfolio/static/js/787.566ae647.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.210a0ccf.css",
+    "static/js/main.c80d36ba.js"
+  ]
+}
