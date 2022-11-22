@@ -2,13 +2,12 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../firebase';
+import { portfolioData } from "../../data/portfolio";
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
-
     setTimeout(() => {
         setLetterClass('text-animate-hover')
       }, 4000)
@@ -38,15 +37,15 @@ const Portfolio = () => {
         return (
             <div className="images-container">
                 {
-                    portfolio.map((port, idx) => {
+                    portfolioData.map((port, idx) => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                src={port.image}
+                                src={port.cover}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">
-                                    <p className="title">{port.name}</p>
+                                    <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
