@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "firebase": "^9.14.0",
+    "gh-pages": "^4.0.0",
     "gsap": "^3.11.3",
     "gsap-trial": "^3.11.3",
     "loaders.css": "^0.1.2",
@@ -26,6 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy":"gh-pages -b feature/main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
