@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://greenreggie10.github.io/react-portfolio/", 
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
