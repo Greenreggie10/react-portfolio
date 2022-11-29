@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { db } from '../../firebase';
+// import { db } from '../../firebase';
 import { portfolioData } from "../../data/portfolio";
 
 const Portfolio = () => { 
@@ -22,13 +22,13 @@ const Portfolio = () => {
     //     getPortfolio();
     // }, []);
 
-    const getPortfolio = async () => {
-        // const querySnapshot = await getDocs(collection(db, 'portfolio'));
+    // const getPortfolio = async () => {
+    //     // const querySnapshot = await getDocs(collection(db, 'portfolio'));
 
         
-        // setPortfolio(querySnapshot.docs.map(doc => doc.data()));
-        setPortfolio([{idx:1,port:{imge:'https://picsum.photos/200/200',name:'Test',description:'test description',url:'https://picsum.photos/200/200'}}])
-    }
+    //     // setPortfolio(querySnapshot.docs.map(doc => doc.data()));
+    //     setPortfolio([{idx:1,port:{imge:'https://picsum.photos/200/200',name:'Test',description:'test description',url:'https://picsum.photos/200/200'}}])
+    // }
 
     const renderPortfolio = () => {
 

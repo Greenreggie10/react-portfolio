@@ -17,7 +17,7 @@ const Dashboard = () => {
             }
         })
         
-    }, []);
+    }, [auth]);
 
 
     return (
