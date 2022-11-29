@@ -14,7 +14,6 @@ ____
 
 - xx Underconstruction !!! xx 
 ___
-[Portfolio Trailer](https://drive.google.com/file/d/1_xRWfwISvnERwC_oLHitnozSNonCsdNj/view)
 
 
-[site here ]()"Finished soon"
+[site here ](https://reggie-green.netlify.app/)
