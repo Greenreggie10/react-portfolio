@@ -12,7 +12,6 @@ ____
 
 ## Live Site Link
 
-- xx Underconstruction !!! xx 
 ___
 
 
